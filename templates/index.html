@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto" >
             <li class="nav-item">
-              <a href="signup.html" class="nav-link">SignUp</a>
+              <a href="{{ url_for('signup') }}" class="nav-link">SignUp</a>
             </li>
             
             <li class="nav-item">
@@ -41,7 +41,7 @@
             <p class="lead my-4">
               BESTfriends CHAT is a chatting app that allows you to chat with your friends and family.
             </p>
-            <a href="signup.html"><button class="btn btn-primary btn-lg">Sign Up Now</button></a>
+            <a href="{{ url_for('signup') }}"><button class="btn btn-primary btn-lg">Sign Up Now</button></a>
           </div>
           
         </div>
